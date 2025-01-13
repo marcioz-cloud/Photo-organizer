@@ -7,7 +7,7 @@ from PIL.ExifTags import TAGS
 # Lista de extensões suportadas (incluindo o formato do iPhone)
 SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".mp4", ".mov", ".avi", ".heic"}
 
-# Caminho do log
+# Caminho do log / pode ser modificado
 log_file = "organizer_log.txt"
 
 def get_exif_date(file_path):
