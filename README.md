@@ -1,6 +1,6 @@
 Photo Organizer
 
-Organizar fotos e vídeos pode ser uma tarefa cansativa e repetitiva. Este projeto em Python foi desenvolvido para facilitar esse processo, categorizando automaticamente os arquivos em pastas baseadas no ano e no mês de criação, utilizando os metadados dos arquivos. A ferramenta é simples, eficiente e fácil de usar.
+Este projeto em Python foi desenvolvido para facilitar esse processo, categorizando automaticamente os arquivos em pastas baseadas no ano e no mês de criação, utilizando os metadados dos arquivos. A ferramenta é simples, eficiente e fácil de usar.
 
 Funcionalidades:
 Extração de Metadados: O script utiliza os dados EXIF de imagens para identificar a data em que a foto foi tirada.
@@ -22,6 +22,3 @@ Arquivos sem metadados válidos são movidos para uma pasta especial chamada no-
 Observações
 Extensões não suportadas: Arquivos com extensões não suportadas são ignorados e registrados no arquivo de log.
 Logs detalhados: Todas as ações e possíveis erros são documentados no arquivo organizer_log.txt.
-
-Contribuições
-Se você tiver ideias ou melhorias, sinta-se à vontade para colaborar! Submeta issues ou pull requests para este repositório.
